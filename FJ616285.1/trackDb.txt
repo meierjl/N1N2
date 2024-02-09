@@ -343,7 +343,7 @@ track WT_RV
 parent WT on
 type bigWig 0 1000
 visibility full
-bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/N1N2/master/FJ616285.1/5prime-RV.bw
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/N1N2/master/FJ616285.1/HFF-PRO-Seq/5prime-RV.bw
 longLabel WTWT
 shortLabel WTWT
 negateValues on
