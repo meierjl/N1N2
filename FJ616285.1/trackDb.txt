@@ -315,3 +315,42 @@ autoScale on
 maxHeightPixels 128:128:16
 
 ###
+
+track WT
+compositeTrack on hide
+type bigWig 0 1000
+group WT
+priority 5
+visibility full
+shortLabel WT
+longLabel PRO-Seq in Flavo-treated HFF infected 96 hours with HCMV strain Towne
+
+track WT_FW
+parent WT on
+type bigWig 0 1000
+visibility full
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/N1N2/master/FJ616285.1/HFF-PRO-Seq/5prime-FW.bw
+longLabel WTWT
+shortLabel WTWT
+negateValues off
+color 153,58,29
+altColor 153,58,29
+alwaysZero on
+autoScale on
+maxHeightPixels 128:128:16
+
+track WT_RV
+parent WT on
+type bigWig 0 1000
+visibility full
+bigDataUrl https://meierjl:Cmv2019!!@raw.githubusercontent.com/meierjl/N1N2/master/FJ616285.1/5prime-RV.bw
+longLabel WTWT
+shortLabel WTWT
+negateValues on
+color 153,58,29
+altColor 153,58,29
+alwaysZero on
+autoScale on
+maxHeightPixels 128:128:16
+
+###
